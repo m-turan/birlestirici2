@@ -67,7 +67,7 @@ class XMLBirlestirici:
         print(f"\nToplam {len(merged_root.findall('.//product'))} ürün birleştirildi.")
         return merged_root
     
-    def xml_dosyasini_hosting_e_yukle(self, root: ET.Element, dosya_adi: str = "tumurunler.xml"):
+    def xml_dosyasini_hosting_e_yukle(self, root: ET.Element, dosya_adi: str = "tumurunler2.xml"):
         """Birleştirilmiş XML'i hostinge yükler"""
         try:
             # XML'i güzel formatla
@@ -178,15 +178,7 @@ def main():
     
     # URL'leri buraya ekleyin
     urls = [
-        "https://www.eterella.com/yasinxml/ariasdeneme.xml",
-        "https://www.eterella.com/yasinxml/gallipolideneme.xml",
-        "https://www.eterella.com/yasinxml/baciodeneme.xml",
-        "https://www.eterella.com/yasinxml/bayanbayandeneme.xml",
-        "https://www.eterella.com/yasinxml/bayanerkek.xml",
-        "https://www.eterella.com/yasinxml/jartiyerdeneme.xml",
-        "https://www.eterella.com/yasinxml/nightdeneme.xml",
-        "https://www.eterella.com/yasinxml/stilmondeneme.xml",
-        "https://www.eterella.com/yasinxml/yeninesildeneme.xml"
+        "https://www.eterella.com/yasinxml/ani.xml"
     ]
     
     print(f"Toplam {len(urls)} URL işlenecek:")
