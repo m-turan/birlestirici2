@@ -1,0 +1,28 @@
+# Hosting konfigürasyon dosyası (şifreler içerir)
+hosting_config.py
+
+# XML dosyaları
+*.xml
+
+# Python cache dosyaları
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE dosyaları
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log dosyaları
+*.log
+
+# Geçici dosyalar
+*.tmp
+*.temp 
