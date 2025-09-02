@@ -178,7 +178,8 @@ def main():
     
     # URL'leri buraya ekleyin
     urls = [
-        "https://www.eterella.com/yasinxml/ani.xml"
+        "https://www.eterella.com/yasinxml/ani.xml",
+        "https://www.eterella.com/yasinxml/imoda.xml"
     ]
     
     print(f"Toplam {len(urls)} URL işlenecek:")
